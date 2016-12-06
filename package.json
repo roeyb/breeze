@@ -1,0 +1,25 @@
+{
+  "name": "breeze",
+  "version": "1.0.0",
+  "description": "a service to capture 3d video points and save to redis",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roeyb/breeze.git"
+  },
+  "author": "Roey B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roeyb/breeze/issues"
+  },
+  "homepage": "https://github.com/roeyb/breeze#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "redis": "^2.6.3",
+    "socket.io": "^1.7.1",
+    "socket.io-client": "^1.7.1"
+  }
+}
