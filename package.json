@@ -6,21 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/roeyb/breeze.git"
-  },
-  "author": "Roey B",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/roeyb/breeze/issues"
-  },
-  "homepage": "https://github.com/roeyb/breeze#readme",
+  "author": "Touch&Co LTD",
   "dependencies": {
-    "crypto": "0.0.3",
-    "csv-parse": "^1.1.7",
-    "redis": "^2.6.3",
-    "socket.io": "^1.7.1",
-    "socket.io-client": "^1.7.1"
+    "bufferutil": "^3.0.0",
+    "redis": "^2.6.5",
+    "ws": "^2.2.0"
   }
 }
